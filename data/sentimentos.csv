@@ -1,0 +1,31 @@
+texto,rotulo
+"esse produto é excelente e chegou rápido",positivo
+"gostei muito do atendimento e da qualidade",positivo
+"o serviço foi ótimo e recomendo",positivo
+"experiência maravilhosa, compraria de novo",positivo
+"produto bom, bonito e barato",positivo
+"a entrega atrasou muito e o suporte não ajudou",negativo
+"péssima experiência, não recomendo",negativo
+"o produto veio com defeito e fui mal atendido",negativo
+"muito ruim, dinheiro perdido",negativo
+"estou decepcionado com a compra",negativo
+"o produto chegou e ainda não testei",neutro
+"recebi ontem e a embalagem veio lacrada",neutro
+"a entrega foi realizada hoje pela manhã",neutro
+"comprei por indicação de um amigo",neutro
+"estou avaliando se vou continuar usando",neutro
+"o sistema é intuitivo e funcionou muito bem",positivo
+"a plataforma ficou estável durante todo o uso",positivo
+"a interface é agradável e fácil de entender",positivo
+"a bateria dura bastante e isso ajuda muito",positivo
+"resultado acima do esperado",positivo
+"o aplicativo trava toda hora",negativo
+"o atendimento demorou demais para responder",negativo
+"a interface confunde e atrapalha",negativo
+"o sistema apresentou muitos erros",negativo
+"a qualidade ficou abaixo do esperado",negativo
+"instalei o programa no computador da empresa",neutro
+"a atualização foi concluída sem mensagens de erro",neutro
+"o manual está disponível no site",neutro
+"o teste foi realizado em ambiente controlado",neutro
+"o pacote foi aberto para inspeção",neutro
