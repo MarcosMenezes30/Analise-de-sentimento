@@ -6,7 +6,7 @@ import re # Limpeza e tratamento de texto
 import string # Limpeza e tratamento de texto
 
 import joblib # Carregamento de grandes arquivos Python ou modelos já salvos
-import streamlit as st # Criação de aplicações wev simples
+import streamlit as st # Criação de aplicações web simples
 
 BASE_DIR = Path(__file__).resolve().parent # A pasta do arquivo atual
 MODEL_PATH = BASE_DIR / "models" / "sentimento_pipeline.joblib" # Local onde o arquico do modelo treinado está
