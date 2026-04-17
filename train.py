@@ -40,7 +40,7 @@ def main() -> None:
         df["texto_limpo"],
         df["rotulo"],
         test_size=0.25, # Aqui foi definido que 25% dos dados serão para teste
-        random_state=42,
+        random_state=42, # Fundamental para garantir que, mesmo sendo um ou mais modelos, o treinamento tenha repetibilidade 
         stratify=df["rotulo"],
     )
 
