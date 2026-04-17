@@ -69,10 +69,9 @@ def main() -> None:
                 
                 LogisticRegression( # Algoritmo de IA que recebe os números da etapa anterios e aprende com eles
                     
-                    max_iter=1000, # Quantas vezes o modelo pode tentar encontrar a melhor resposta
-                                   # Deve ser escolhido com cuidado para evitar overfitting e underfitting
+                    max_iter=1000, # Quantas vezes o modelo vai ajustar os pesos dos números da etapa anterior para tentar chegar no melhor resultado
                     
-                    class_weight="balanced",# Ajuste feito para efitar respostas enviesada
+                    class_weight="balanced", # Ajuste feito para efitar respostas enviesada
                     
                     random_state=42,
                 ),
