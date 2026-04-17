@@ -43,7 +43,7 @@ if st.button("Classificar"):
         texto_limpo = limpar_texto(texto) # Limpa o texto inserido pelo usuário
         pred = modelo.predict([texto_limpo])[0] # Faz o modelo prever o sentimento daquele texto
         proba = modelo.predict_proba([texto_limpo])[0] # Faz o modelo calcular a probabilidade de cada classe para esse texto
-        classes = modelo.classes_ # Oega a lista de nomes das classes que o modelo conhece (positivo, negativo, etc)
+        classes = modelo.classes_ # Pega a lista de nomes das classes que o modelo conhece (positivo, negativo, etc)
         distribuicao = {classe: float(prob) for classe, prob in zip(classes, proba)} # Junta os nomes das classes com as probabilidades em um dicionário Python (Apenas para organização do codigo)
 
         # Utiliza a biblioteca streamlist para mostrar os resultados na página web
